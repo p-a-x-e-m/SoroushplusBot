@@ -1,0 +1,70 @@
+# ============================================================
+# Secrets and credentials — must never be committed
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+splus.db
+splus.db-journal
+splus.db-wal
+
+# ============================================================
+# Data, dumps and backups — may contain private conversations
+# ============================================================
+output/
+media/
+json/
+*.sql
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+!requirements.lock.txt
+
+# ============================================================
+# Byte-compiled / optimized
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Editors / IDEs / OS
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Logs and local config
+# ============================================================
+*.log
+*.log.*
+logging.conf
+.dockerignore.local

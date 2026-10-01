@@ -1,0 +1,5 @@
+# Direct dependencies, pinned to exact versions.
+# Google Chrome itself must be installed separately; the matching driver is
+# downloaded at runtime by webdriver-manager.
+selenium==4.31.0
+webdriver-manager==4.0.2
